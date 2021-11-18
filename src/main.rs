@@ -8,4 +8,9 @@ fn main() {
 
     x = 20;
     println!("x is mutable: x = {}", x);
+
+    let b = true;
+    let t = (13, false);
+    let s = "hello world!";
+    println!("{} {} {} {}", b, t.0, t.1, s);
 }
