@@ -13,4 +13,6 @@ fn main() {
     let t = (13, false);
     let s = "hello world!";
     println!("{} {} {} {}", b, t.0, t.1, s);
+
+    println!("明示的な型変換: x + y = {}", x as f64 + y);
 }
